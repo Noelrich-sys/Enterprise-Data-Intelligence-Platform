@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Environment
+.env
+
+# LocalStack generated files
+docker/localstack/cache/
+
+# Docker volumes
+docker/*/data/
+
+# Test data
+test-data/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
